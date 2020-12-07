@@ -23,8 +23,8 @@ To get up and running you need both stable and nightly Rust. Rust nightly is use
 Assembly (WASM) runtime for the node. You can configure the WASM support as so:
 
 ```
-rustup install nightly
-rustup target add wasm32-unknown-unknown --toolchain nightly
+rustup install nightly-2020-09-29
+rustup target add wasm32-unknown-unknown --toolchain nightly-2020-09-29
 ```
 
 Once this is configured you can build and test the repo as follows:
